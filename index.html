@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="shortcut icon" href="./images/niceLogo.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d2486ab288.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <!-- start header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo-wrap">
+                <a href="./index.html">
+                    <svg class="logo" viewBox="0 0 512 512">
+                        <path d="M425.19,7.392C422.246,2.784,417.158,0,411.686,0h-160c-6.208,0-11.872,3.584-14.496,9.248l-224,480
+                        c-2.304,4.96-1.952,10.752,0.992,15.36c2.944,4.608,8.032,7.392,13.504,7.392h160c6.208,0,11.872-3.584,14.496-9.216l224-480
+                        C428.486,17.824,428.134,12,425.19,7.392z" />
+                        <path d="M497.798,263.392c-2.912-4.608-8.032-7.392-13.472-7.392H352.678L233.222,512h146.464c6.208,0,11.872-3.584,14.496-9.216
+                        l104.64-224C501.126,273.824,500.742,268,497.798,263.392z" />
+                    </svg>
+                </a>
+            </div>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <button id="bars" class="nav-btn active"><i class="fas fa-bars"></i></button>
+                <button id="times" class="nav-btn"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+
+    <!-- start hero -->
+    <div id="hero">
+        <div class="content">
+            <h1 class="title">design</h1>
+            <h2 class="sub-title">our hobby is modern and convenient design</h2>
+            <a href="#work" class="btn">Show Works</a>
+        </div>
+        <div class="imgs">
+            <div class="single-img active">
+                <img src="./images/showcase.jpg" alt="">
+            </div>
+            <div class="single-img">
+                <img src="./images/2.jpg" alt="">
+            </div>
+            <div class="single-img">
+                <img src="./images/3.jpg" alt="">
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="hero-btn" id="prev">&#10094;</button>
+            <button class="hero-btn" id="index">1</button>
+            <button class="hero-btn"> / </button>
+            <button class="hero-btn">3</button>
+            <button class="hero-btn" id="next">&#10095;</button>
+        </div>
+    </div>
+    <!-- end hero -->
+
+
+    <!-- start services -->
+    <section id="services">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Services</h1>
+                <p class="sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde at culpa non
+                    pariatur laborum libero
+                    quam, fugit consequuntur beatae et quaerat. Nemo porro est fuga.</p>
+            </div>
+            <article class="services-wrap">
+            </article>
+        </div>
+    </section>
+    <!-- end services -->
+
+    <!-- start work -->
+    <section id="work">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Works</h1>
+                <p class="sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde at culpa non
+                    pariatur laborum libero
+                    quam, fugit consequuntur beatae et quaerat. Nemo porro est fuga.</p>
+            </div>
+            <!-- works filter btns -->
+            <div class="filter-btn-container">
+                <!-- <button class="filterBtn" data-id="all">all</button> -->
+            </div>
+            <article class="work-wrap">
+            </article>
+        </div>
+    </section>
+    <!-- end work -->
+
+
+    <!-- start about -->
+    <section id="about">
+        <div class="container">
+            <div class="about-text">
+                <div class="about-btn-container">
+                    <button data-id="aboutMe" class="active">about</button>
+                    <button data-id="vision">vision</button>
+                    <button data-id="mission">mission</button>
+                </div>
+                <article class="about-section active" id="aboutMe">
+                    <div class="title-container">
+                        <h1 class="title">about</h1>
+                    </div>
+                    <div class="content-text">
+                        <p>Nulla consequuntur temporibus vero
+                            accusamus ut natus odio nemo dolorum placeat illo officiis distinctio magni minima, sed
+                            expedita
+                            veniam laborum provident reprehenderit non, voluptate, incidunt exercitationem omnis.
+                            Consequatur reprehenderit, accusantium facilis eveniet deleniti expedita id culpa soluta,
+                            hic
+                            ullam est consequuntur dolores.
+                        </p>
+                    </div>
+                </article>
+                <article class="about-section" id="vision">
+                    <div class="title-container">
+                        <h1 class="title">our vision</h1>
+                    </div>
+                    <div class="content-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequuntur temporibus vero
+                            accusamus ut natus odio nemo dolorum placeat illo officiis distinctio magni minima, sed
+                            expedita
+                            veniam laborum provident reprehenderit non, voluptate, incidunt exercitationem omnis.
+                            Consequatur reprehenderit, accusantium
+                            hic
+                            ullam est consequuntur.
+                        </p>
+                    </div>
+                </article>
+                <article class="about-section" id="mission">
+                    <div class="title-container">
+                        <h1 class="title">our mission</h1>
+                    </div>
+                    <div class="content-text">
+                        <p>Nulla consequuntur temporibus vero
+                            accusamus ut natus odio nemo dolorum placeat illo officiis distinctio magni minima, sed
+                            expedita Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            veniam laborum provident reprehenderit non, voluptate, incidunt exercitationem omnis.
+                            Consequatur reprehenderit.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <!-- my images -->
+            <div class="about-img">
+                <img src="./images/showcase.jpg" class="big-img" alt="">
+                <div class="about-img-gallery">
+                    <img src="./images/1.jpg" alt="">
+                    <img src="./images/2.jpg" alt="">
+                    <img src="./images/3.jpg" alt="">
+                    <img src="./images/showcase.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+
+    <!-- start contact -->
+    <section id="contact">
+        <!-- title -->
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Contact us</h1>
+                <p class="sub-title">Unde at culpa non
+                    pariatur laborum libero
+                    quam, fugit consequuntur beatae et quaerat. Nemo porro est fuga.</p>
+            </div>
+        </div>
+        <!-- body -->
+        <div class="container">
+            <!-- info -->
+            <article class="info">
+                <div class="body">
+                    <div class="contact-title-wrap">
+                        <h1>get in touch</h1>
+                    </div>
+                    <div class="content">
+                        <p class="address"><span class="bold">Address:</span> 6020 Innsbruck</p>
+                        <p class="tell"><span class="bold">call us:</span> 555 555 555</p>
+                        <p class="opening-time">we are availabe form <span class="bold">8.00 - 16.00</span></p>
+                    </div>
+                    <div class="social-media">
+                        <div class="facebook social-cont">
+                            <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="linkedIn social-cont">
+                            <a href="http://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="youtube social-cont">
+                            <a href="http://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube-square"></i>
+                            </a>
+                        </div>
+                        <div class="instagram social-cont">
+                            <a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- form -->
+            <article class="contact-form">
+                <form action="./index.html" method="post" id="form">
+                    <div class="input-wrap">
+                        <label for="name">first name:</label>
+                        <input type="text" name="name" id="name" placeholder="First name">
+                        <small></small>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="lname">last name:</label>
+                        <input type="text" name="lname" id="lname" placeholder="Last name">
+                        <small></small>
+                    </div>
+                    <div class="input-wrap">
+                        <label for="email">email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <small></small>
+                    </div>
+                    <div class="message">
+                        <label for="message">message:</label>
+                        <textarea name="message" id="message" cols="30" rows="5"
+                            placeholder="Your message..."></textarea>
+                    </div>
+                    <button id="submit">Send</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <!-- end contact -->
+
+
+    <!-- start footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="logo-wrap">
+                <a href="#header">
+                    <svg class="logo" viewBox="0 0 512 512">
+                        <path d="M425.19,7.392C422.246,2.784,417.158,0,411.686,0h-160c-6.208,0-11.872,3.584-14.496,9.248l-224,480
+            c-2.304,4.96-1.952,10.752,0.992,15.36c2.944,4.608,8.032,7.392,13.504,7.392h160c6.208,0,11.872-3.584,14.496-9.216l224-480
+            C428.486,17.824,428.134,12,425.19,7.392z" />
+                        <path d="M497.798,263.392c-2.912-4.608-8.032-7.392-13.472-7.392H352.678L233.222,512h146.464c6.208,0,11.872-3.584,14.496-9.216
+            l104.64-224C501.126,273.824,500.742,268,497.798,263.392z" />
+                    </svg>
+                </a>
+            </div>
+            <!-- content -->
+            <div class="footer-content">
+                <p class="media-text">find me elsewhere on the web as well:</p>
+                <div class="socialmedia">
+                    <div class="facebook social-cont">
+                        <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="linkedIn social-cont">
+                        <a href="http://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="youtube social-cont">
+                        <a href="http://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube-square"></i>
+                        </a>
+                    </div>
+                    <div class="instagram social-cont">
+                        <a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copy">&copy; 2021 meqdad moradi</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+</body>
+
+</html>
